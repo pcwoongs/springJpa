@@ -20,6 +20,7 @@ apply plugin: 'io.spring.dependency-management'   // Spring boot의 의존성을
 
 group 'Jpa'
 version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
 
 //Repository는 각종 의존성 라이브러리들을 어떤 원격 저장소에서 받을지를 정한다. 기본적으로 maverCentral을 많이 사용하지만, 최근에는 라이브러리 업로드 난이도 때문에 jcenter도 많이 사용한다.
 repositories {
